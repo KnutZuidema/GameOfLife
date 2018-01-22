@@ -4,8 +4,6 @@
 #include "Cell.h"
 #include "Grid.h"
 #include <boost/program_options.hpp>
-#include <thread/mingw.thread.h>
-#define SFML_STATIC
 
 namespace po = boost::program_options;
 
