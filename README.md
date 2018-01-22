@@ -31,5 +31,6 @@ Modified version of the classic Game of Life, with 3 "races" fighting each other
 <tr><td>-c [ --cell_size ] arg (=3)</td><td>uint, size of the individual cells in pixels</td></tr>
 <tr><td>-b [ --border_size ] arg (=30)</td><td>uint, size of the border in pixels</td></tr>
 <tr><td>-f [ --frame_rate ] arg (=30)</td><td>uint, max frame rate</td></tr>
+</table>
 
-<p>Can also use <code>GameOfLife --help</code> for usage information.</p>
+Can also use <code>GameOfLife --help</code> for usage information.
