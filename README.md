@@ -6,6 +6,7 @@ Modified version of the classic Game of Life, with 3 "races" fighting each other
 <h3>Prerequisites</h3>
 
 <ul>
+<li><a href=#>cmake</a></li>
 <li><a href=https://www.sfml-dev.org/>SFML 2.0</a></li>
 <li><a href=http://www.boost.org/doc/libs/1_66_0/doc/html/program_options.html>Boost.Program-options 1.66</a></li>
 </ul>
