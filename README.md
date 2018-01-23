@@ -1,6 +1,9 @@
 # GameOfLife
 Modified version of the classic Game of Life, with 3 "races" fighting each other
 
+<h2>get it</h2>
+<code>git clone --recursive https://github.com/KnutZuidema/GameOfLife.git</code>
+
 <h2>Build</h2>
 
 <h3>Prerequisites</h3>
