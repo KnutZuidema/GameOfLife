@@ -27,8 +27,6 @@ Modified version of the classic Game of Life, with 3 "races" fighting each other
 
 ## Usage
 
-<h2>Usage</h2>
-
 <table>
 <tr><th>Argument (=default)</th><th>Description</th></tr>
 <tr><td>--help</td><td>produce this help message</td></tr>
