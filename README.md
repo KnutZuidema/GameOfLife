@@ -1,28 +1,31 @@
 # GameOfLife
 Modified version of the classic Game of Life, with 3 "races" fighting each other
 
-<h2>get it</h2>
-<code>git clone --recursive https://github.com/KnutZuidema/GameOfLife.git</code>
+## get it
 
-<h2>Build</h2>
+`git clone --recursive https://github.com/KnutZuidema/GameOfLife.git`
 
-<h3>Prerequisites</h3>
+## Build
 
-<ul>
-<li><a href=#>cmake</a></li>
-<li><a href=https://www.sfml-dev.org/>SFML 2.0</a></li>
-<li><a href=http://www.boost.org/doc/libs/1_66_0/doc/html/program_options.html>Boost.Program-options 1.66</a></li>
-</ul>
+### Prerequisites
 
-<h3>Compilation</h3>
+*   [cmake](#)
+*   [SFML 2.0](https://www.sfml-dev.org/)
+*   [Boost.Program-options 1.66](http://www.boost.org/doc/libs/1_66_0/doc/html/program_options.html)
 
-<h5>GCC 6.1</h5>
-<code>g++ -I$(INCLUDEDIR) main.cpp Cell.cpp Grid.cpp -c</code>
+### Compilation
 
-<h3>Linking</h3>
+##### GCC 6.1
 
-<h5>GCC 6.1</h5>
-<code>g++ -o GameOfLife.exe main.o Cell.o Grid.o -L$(LIBDIR) -lsfml-graphics -lsfml-window -lsfml-system -lboost_program_options</code>
+`g++ -I$(INCLUDEDIR) main.cpp Cell.cpp Grid.cpp -c`
+
+### Linking
+
+##### GCC 6.1
+
+`g++ -o GameOfLife.exe main.o Cell.o Grid.o -L$(LIBDIR) -lsfml-graphics -lsfml-window -lsfml-system -lboost_program_options`
+
+## Usage
 
 <h2>Usage</h2>
 
