@@ -3,28 +3,27 @@ Modified version of the classic Game of Life, with 3 "races" fighting each other
 
 ## get it
 
+If you already have Boost and SFML installed drop the `--recursive`
+
 `git clone --recursive https://github.com/KnutZuidema/GameOfLife.git`
 
 ## Build
 
 ### Prerequisites
 
-*   [cmake](#)
-*   [SFML 2.0](https://www.sfml-dev.org/)
-*   [Boost.Program-options 1.66](http://www.boost.org/doc/libs/1_66_0/doc/html/program_options.html)
+*   [CMake](https://cmake.org/)
+*   [SFML](https://www.sfml-dev.org/)
+*   [Boost](http://www.boost.org/)
 
-### Compilation
+### Building
 
-##### GCC 6.1
+`build_boost`  
+`build_sfml`  
+`cmake .`  
+`make`
 
-`g++ -I$(INCLUDEDIR) main.cpp Cell.cpp Grid.cpp -c`
-
-### Linking
-
-##### GCC 6.1
-
-`g++ -o GameOfLife.exe main.o Cell.o Grid.o -L$(LIBDIR) -lsfml-graphics -lsfml-window -lsfml-system -lboost_program_options`
-
+If you have Boost and SFML installed elsewhere you have to pass the `include` and `lib` directories to CMake  
+`cmake -DBOOST_INCLUDEDIR=<dir> -DBOOST_LIBRARYDIR=<dir> -DSFML_INCLUDEDIR=<dir> -DSFML_LIBRARYDIR=<dir>`
 ## Usage
 
 <table>
