@@ -23,7 +23,8 @@ If you already have Boost and SFML installed drop the `--recursive`
 `make`
 
 If you have Boost and SFML installed elsewhere you have to pass the `include` and `lib` directories to CMake  
-`cmake -DBOOST_INCLUDEDIR=<dir> -DBOOST_LIBRARYDIR=<dir> -DSFML_INCLUDEDIR=<dir> -DSFML_LIBRARYDIR=<dir>`
+`cmake -DBOOST_INCLUDEDIR=<dir> -DBOOST_LIBRARYDIR=<dir> -DSFML_INCLUDEDIR=<dir> -DSFML_LIBRARYDIR=<dir>`  
+You also need to make sure the shared libraries can be found
 ## Usage
 
 <table>
