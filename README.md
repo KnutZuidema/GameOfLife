@@ -12,8 +12,6 @@ If you already have Boost and SFML installed drop the `--recursive`
 ### Prerequisites
 
 *   [CMake](https://cmake.org/)
-*   [SFML](https://www.sfml-dev.org/)
-*   [Boost](http://www.boost.org/)
 
 ### Building
 
