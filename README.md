@@ -12,6 +12,7 @@ If you already have Boost and SFML installed drop the `--recursive`
 ### Prerequisites
 
 *   [CMake](https://cmake.org/)
+*   [MinGW](http://mingw.org/)
 
 ### Building
 
